@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body {
+    background: linear-gradient( #ec4021, #2be91a, #1a1ee9 );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 500px;
+    background-color: #fff;
+    border: 7px solid #ae91c5;
+    color: #000;
+    padding: 7px;
+}
+
+section:hover {
+    background-image: url("https://i.etsystatic.com/34294802/r/il/ad6163/3797780427/il_570xN.3797780427_fpyd.jpg");
+    cursor: pointer;
+    opacity: 0.7;
+    color: yellow;
+}
+
+h2 {
+    border-bottom: 1px solid #9b58d1;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#palabra {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.letra {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #9b58d1;
+    text-align: center;
+    margin: 4px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.pintar {
+    background-color: #02bfa4;;
+}
+
+.pintarError{
+    background-color: red;
+}
+
+h3 {
+    margin: 4px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+h3 span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    background-color:#02bfa4;
+    border: 2px solid #02bfa4;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #fa3a21;
+    color: #1a1ee9;
+}
